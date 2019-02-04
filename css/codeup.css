@@ -66,3 +66,84 @@ a>img {
 }
 
 
+/*Custom CSS for Circles and Header */
+body {
+    background-color: lightgrey;
+}
+
+.circle {
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+.logo-text {
+    text-align: center;
+    padding-top: 35px;
+    color: white;
+    text-transform: uppercase;
+}
+.circle-color-1 {
+    background-color: #e6563b;
+}
+.circle-color-2 {
+    background-color: #eb9d3a;
+}
+.circle-color-3 {
+    background-color: #7cb06c;
+}
+.circle-color-4 {
+    background-color: #00aba9;
+}
+
+#xlcircles  {
+    padding-left: 200px;
+    padding-right: 150px;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 1199.98px) {
+    #lgcircles{
+        padding-left: 200px;
+        padding-right: 150px;
+        margin-bottom: 40px;
+    }
+}
+@media (max-width: 991.98px) {
+    #mdcircles{
+        padding-left: 75px;
+        padding-right: 50px;
+        margin-bottom: 40px;
+    }
+}
+@media (max-width: 767.98px) {
+    #smcircles{
+        padding-left: 38px;
+        padding-right: 41px;
+        margin-bottom: 40px;
+    }
+    h1 {
+        font-size: 34px;
+    }
+}
+@media (max-width: 575.98px) {
+    #xscircles{
+        padding-left: 38px;
+        padding-right: 41px;
+        margin-bottom: 40px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    .circle {
+        width: 205px;
+        height: 205px;
+        border-radius: 50%;
+        border: 8px solid white;
+    }
+    .logo-text  {
+        font-size: 36px;
+        margin-top: 33px;
+        font-weight: bolder;
+    }
+}
