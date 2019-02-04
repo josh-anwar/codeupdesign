@@ -96,6 +96,45 @@ body {
     background-color: #00aba9;
 }
 
+.circle2{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.circle3{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.col-xl-4.d-none.d-lg-none.d-xl-block{
+    margin-top: 59px;
+}
+
+.row.d-none.d-lg-none.d-xl-block {
+    margin-top: -40px;
+}
+
+.mac{
+    margin-bottom: 30px;
+}
+
+.img {
+    margin-top: 13px;
+    margin-left: 3px;
+}
+
+.col-xl-4 {
+    margin-top: 20px;
+}
+
+#last{
+    margin-top: 40px;
+}
+
 #xlcircles  {
     padding-left: 200px;
     padding-right: 150px;
@@ -145,5 +184,16 @@ body {
         font-size: 36px;
         margin-top: 33px;
         font-weight: bolder;
+    }
+}
+
+/* section 3 */
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 768px) {
+    #space2{
+        margin-left: 20px;
     }
 }
