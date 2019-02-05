@@ -241,6 +241,12 @@ p.headers {
         line-height: 0.5px;
     }
 }
+@media (min-width: 47px) {
+    .image-label {
+        font-size: 10px;
+        font-weight: lighter;
+    }
+}
 
 @media (min-width: 768px) {
     .col-md-4.imagerow1 {
