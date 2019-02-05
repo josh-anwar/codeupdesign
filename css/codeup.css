@@ -259,7 +259,7 @@ p.headers {
     font-size: 15px;
     font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: -1px;
+    letter-spacing: 0px;
     font-family: anton;
 }
 
@@ -332,9 +332,5 @@ p.headers {
     }
     .imagecol2 {
         margin-top: 10px;
-    }
-    p {
-        font-size: 10px;
-        font-weight: lighter;
     }
 }
