@@ -26,6 +26,15 @@ a{
     margin: -32px;
 }
 
+.image2{
+    margin-top: 20px;
+}
+
+.row.mt-4.xscircles {
+    margin-left: -30px;
+    margin-right: -32px;
+}
+
 .dot {
     height: 105px;
     width: 105px;
@@ -55,6 +64,35 @@ a{
         text-align: center;
         margin-top: 30px;
         margin-bottom: 30px;
+    }
+
+    .navbar-brand.d-sm-none.d-md-none.d-lg-none.d-xl-none.mx-auto {
+        margin-top: -35px;
+    }
+
+    .col-12.text-center.mt-5 {
+        margin-left: 30px;
+    }
+
+    .col-12.text-center.mt-3 {
+        margin-left: 29px;
+    }
+
+    .row.mt-4.xscircles {
+        margin-left: 28px;
+        margin-right: -37px;
+    }
+
+    img.img-fluid.mb-4 {
+        margin-left: 25px;
+    }
+
+    p.mb-5 {
+        text-align: center;
+    }
+
+    #navbar{
+        width: 200%;
     }
 
     #space{
@@ -152,6 +190,7 @@ body {
         padding-right: 150px;
         margin-bottom: 40px;
     }
+
 }
 @media (max-width: 991.98px) {
     #mdcircles{
