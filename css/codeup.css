@@ -190,6 +190,10 @@ body {
         margin-top: 33px;
         font-weight: bolder;
     }
+
+    #navbar {
+        width: 111%;
+    }
 }
 
 /* section 3 */
