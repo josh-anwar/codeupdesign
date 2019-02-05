@@ -97,15 +97,8 @@ body {
 }
 
 .circle2{
-    height: 18px;
-    width: 18px;
-    border-radius: 50%;
-    display: inline-block;
-}
-
-.circle3{
-    height: 18px;
-    width: 18px;
+    height: 24px;
+    width: 24px;
     border-radius: 50%;
     display: inline-block;
 }
