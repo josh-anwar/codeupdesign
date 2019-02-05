@@ -97,8 +97,8 @@ body {
 }
 
 .circle2{
-    height: 24px;
-    width: 24px;
+    height: 16px;
+    width: 16px;
     border-radius: 50%;
     display: inline-block;
 }
@@ -240,20 +240,32 @@ p.headers {
         width: 200px;
     }
 
-    .images2{
+    .images2 {
         height: 50px;
         width: 50px;
     }
 
-    .mdscreenimg{
+    .mdscreenimg {
         margin-top: 20px;
     }
 
-    .imagecol1{
+    .imagecol1 {
         margin-top: -80px;
     }
 
-    .imagecol2{
+    .imagecol2 {
         margin-top: -80px;
     }
-
+}
+@media (min-width: 576px) {
+    .imagecol1 {
+        margin-top: 10px;
+    }
+    .imagecol2 {
+        margin-top: 10px;
+    }
+    p {
+        font-size: 10px;
+        font-weight: lighter;
+    }
+}
