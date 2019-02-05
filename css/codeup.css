@@ -10,6 +10,18 @@ a>img {
     padding: 0;
 }
 
+h1, h2, h3, h4 {
+    font-family: Anton;
+}
+
+p{
+    font-family: abel;
+}
+
+a{
+    color: black;
+}
+
 .navbar-brand.d-sm-none.d-md-none.d-lg-none.d-lx-none.mx-auto{
     margin: -32px;
 }
@@ -204,6 +216,14 @@ p.headers {
     margin: 50px;
 }
 
+.words{
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-family: anton;
+}
+
 .imagerow2{
     margin-top: -70px;
 }
@@ -217,12 +237,8 @@ p.headers {
         height: 200px;
     }
 
-    .imagecol1{
-
-    }
-
-    .imagecol2{
-
+    .words{
+        line-height: 0.5px;
     }
 }
 
@@ -255,6 +271,14 @@ p.headers {
 
     .imagecol2 {
         margin-top: -80px;
+    }
+
+    #man{
+        margin-top: -100px;
+    }
+
+    #sec{
+        margin-top: -100px;
     }
 }
 @media (min-width: 576px) {
